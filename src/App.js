@@ -3,7 +3,7 @@ import { CardList } from "./components/card-list/card-list.component.jsx";
 import { monsters } from "./monsters";
 import { SearchBox } from "./components/search-box/search-box.component.jsx";
 // import logo from "./logo.svg";
-// import "./styles/App.css";
+import "./App.css";
 
 class App extends Component {
   constructor() {
@@ -28,8 +28,9 @@ class App extends Component {
       monster.name.toLowerCase().includes(search.toLowerCase())
     );
     return (
-      <div className="App h-100">
-        <div className="flex justify-center py-8">
+      <div className="flex flex-col items-center h-100">
+        <h1 className="top-text">Monsters Rolodex</h1>
+        <div className="py-8">
           <SearchBox
             placeholder="name search"
             handleChange={(e) => this.setState({ search: e.target.value })}

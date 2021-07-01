@@ -645,6 +645,16 @@ video {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.flex-col {
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+
+.items-center {
+  -webkit-align-items: center;
+          align-items: center;
+}
+
 .justify-center {
   -webkit-justify-content: center;
           justify-content: center;
