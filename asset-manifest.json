@@ -1,23 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/static/js/main.4cf55a3d.chunk.js",
-    "main.js.map": "/static/js/main.4cf55a3d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.99564501.js",
-    "runtime-main.js.map": "/static/js/runtime-main.99564501.js.map",
-    "static/js/2.45da956f.chunk.js": "/static/js/2.45da956f.chunk.js",
-    "static/js/2.45da956f.chunk.js.map": "/static/js/2.45da956f.chunk.js.map",
-    "static/js/3.0da6466e.chunk.js": "/static/js/3.0da6466e.chunk.js",
-    "static/js/3.0da6466e.chunk.js.map": "/static/js/3.0da6466e.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.45da956f.chunk.js.LICENSE.txt": "/static/js/2.45da956f.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "main.css": "/monsters-rolodex/static/css/main.e86a95a6.chunk.css",
+    "main.js": "/monsters-rolodex/static/js/main.f40d8b20.chunk.js",
+    "main.js.map": "/monsters-rolodex/static/js/main.f40d8b20.chunk.js.map",
+    "runtime-main.js": "/monsters-rolodex/static/js/runtime-main.7ea319e4.js",
+    "runtime-main.js.map": "/monsters-rolodex/static/js/runtime-main.7ea319e4.js.map",
+    "static/js/2.053fb966.chunk.js": "/monsters-rolodex/static/js/2.053fb966.chunk.js",
+    "static/js/2.053fb966.chunk.js.map": "/monsters-rolodex/static/js/2.053fb966.chunk.js.map",
+    "static/js/3.8c2a27f4.chunk.js": "/monsters-rolodex/static/js/3.8c2a27f4.chunk.js",
+    "static/js/3.8c2a27f4.chunk.js.map": "/monsters-rolodex/static/js/3.8c2a27f4.chunk.js.map",
+    "index.html": "/monsters-rolodex/index.html",
+    "static/css/main.e86a95a6.chunk.css.map": "/monsters-rolodex/static/css/main.e86a95a6.chunk.css.map",
+    "static/js/2.053fb966.chunk.js.LICENSE.txt": "/monsters-rolodex/static/js/2.053fb966.chunk.js.LICENSE.txt",
+    "static/media/monster0.9d5fccdd.png": "/monsters-rolodex/static/media/monster0.9d5fccdd.png",
+    "static/media/monster1.2ea48317.png": "/monsters-rolodex/static/media/monster1.2ea48317.png",
+    "static/media/monster2.24b3ede2.png": "/monsters-rolodex/static/media/monster2.24b3ede2.png",
+    "static/media/monster3.e759f0f5.png": "/monsters-rolodex/static/media/monster3.e759f0f5.png",
+    "static/media/monster4.a6292597.png": "/monsters-rolodex/static/media/monster4.a6292597.png",
+    "static/media/monster5.5d3511b3.png": "/monsters-rolodex/static/media/monster5.5d3511b3.png",
+    "static/media/monster6.d47461c4.png": "/monsters-rolodex/static/media/monster6.d47461c4.png",
+    "static/media/monster7.c8617ac2.png": "/monsters-rolodex/static/media/monster7.c8617ac2.png",
+    "static/media/monster8.2ea4321a.png": "/monsters-rolodex/static/media/monster8.2ea4321a.png",
+    "static/media/monster9.0064490b.png": "/monsters-rolodex/static/media/monster9.0064490b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.99564501.js",
-    "static/js/2.45da956f.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.4cf55a3d.chunk.js"
+    "static/js/runtime-main.7ea319e4.js",
+    "static/js/2.053fb966.chunk.js",
+    "static/css/main.e86a95a6.chunk.css",
+    "static/js/main.f40d8b20.chunk.js"
   ]
 }
