@@ -17,6 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "tw": "tailwindcss -o ./src/styles/index.css -w",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -36,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
   }
 }

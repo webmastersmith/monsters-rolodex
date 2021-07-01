@@ -1,32 +1,42 @@
-import { Component } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React, { Component } from "react";
+import { CardList } from "./components/card-list/card-list.component.jsx";
+import { monsters } from "./monsters";
+import { SearchBox } from "./components/search-box/search-box.component.jsx";
+// import logo from "./logo.svg";
+// import "./styles/App.css";
 
 class App extends Component {
   constructor() {
-    super()
+    super();
 
     this.state = {
-      string: 'Hello Bryon!!!'
-    }
+      monsters,
+      search: "",
+    };
   }
 
+  // defers request until after render.
+  // componentDidMount() {
+  //   fetch("https://jsonplaceholder.typicode.com/users")
+  //     .then((response) => response.json())
+  //     .then((users) => this.setState({ monsters: users }));
+  // }
+
   render() {
+    const { monsters, search } = this.state;
+    const filteredMonsters = monsters.filter((monster) =>
+      monster.name.toLowerCase().includes(search.toLowerCase())
+    );
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>{this.state.string}</p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          <button onClick={() => this.setState({string: 'Hello Carrie'})}> Change Text </button>
-        </header>
+      <div className="App h-100">
+        <div className="flex justify-center py-8">
+          <SearchBox
+            placeholder="name search"
+            handleChange={(e) => this.setState({ search: e.target.value })}
+          />
+        </div>
+
+        <CardList monsters={filteredMonsters} />
       </div>
     );
   }
